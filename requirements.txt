@@ -1,2 +1,6 @@
 azure-functions
 gitpython
+requests==2.31.0
+beautifulsoup4==4.12.2
+pandas==2.1.1
+azure-storage-blob==12.18.0
