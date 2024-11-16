@@ -10,8 +10,10 @@ p_account_name = 'unav0storage'#'YOUR_ACCOUNT_NAME'
 p_account_key = '3Bi1lEI41WFNwv0mGfljs7HjRDuDuPN7nonIvqE8LfBGRSnbxRsDVYuCyJ2GhGk4qE5jwCmmQGu5+AStc2ZjOA=='#'YOUR_ACCOUNT_KEY'
 blob_service_client = BlobServiceClient(account_url=f"https://{p_account_name}.blob.core.windows.net", credential=p_account_key)
 
+
+#comentario relevante
+
 def blob_to_container(container_name, file_name):
-    # Get a client for the container
     container_client = blob_service_client.get_container_client(container_name)
     
     # Upload the blob
