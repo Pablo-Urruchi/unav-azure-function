@@ -6,8 +6,8 @@ from azure.storage.blob import BlobServiceClient, ContentSettings
 import os
 
 # Set up Azure Storage credentials and BlobServiceClient
-p_account_name = 'unav0storage'#'YOUR_ACCOUNT_NAME'
-p_account_key = '3Bi1lEI41WFNwv0mGfljs7HjRDuDuPN7nonIvqE8LfBGRSnbxRsDVYuCyJ2GhGk4qE5jwCmmQGu5+AStc2ZjOA=='#'YOUR_ACCOUNT_KEY'
+p_account_name = 'YOUR_ACCOUNT_NAME'
+p_account_key = #'YOUR_ACCOUNT_KEY'
 blob_service_client = BlobServiceClient(account_url=f"https://{p_account_name}.blob.core.windows.net", credential=p_account_key)
 
 
